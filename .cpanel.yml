@@ -1,6 +1,6 @@
 ---
 deployment:
   tasks:
+    - export DEPLOY_PATH=/home/atotwechomba/public_html
     - cd /home/atotwechomba/atototweweartherapp
-
     - /bin/cp -r * $DEPLOY_PATH
